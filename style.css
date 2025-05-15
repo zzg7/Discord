@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d4f5c3; /* أخضر مريح */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.join-btn {
+  background-color: transparent;
+  border: 2px solid #3fa34d;
+  color: #3fa34d;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.join-btn:hover {
+  background-color: #3fa34d;
+  color: white;
+}
+
+.link-box {
+  margin-top: 25px;
+  border: 2px solid #ffd700; /* أصفر */
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.link-box a {
+  color: #ffd700;
+  text-decoration: none;
+}
